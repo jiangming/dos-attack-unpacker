@@ -8,3 +8,5 @@ that lead to a denial-of-service attack on host-based generic unpackers.
 We present the design, implementation, and evaluation of the proposed
 packer and malware produced using the proposed packer, and show the
 success of denial-of-service attacks on host-based generic unpackers.
+
+[ICICS¡¯09] Limin Liu, Jiang Ming, Zhi Wang, Debin Gao and Chunfu Jia, Denial-of-Service Attacks on Host-Based Generic Unpackers, In Proceedings of the 11th International Conference on Information and Communications Security, Beijing, China, December 2009.
