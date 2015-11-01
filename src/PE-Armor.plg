@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dialog - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFA.bat" with contents
+[
+@echo off
+c:\masm32\bin\ml /c /coff /Zi /Fo.\Debug\shell.obj .\shell.asm
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFA.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PE-Armor.pdb" /map:"Debug/PE-Armor.map" /debug /machine:I386 /out:"Debug/PE-Armor.exe" /pdbtype:sept /section:.text,ERW 
+".\Debug\PE-Armor.obj"
+".\Debug\dialog.res"
+".\aplib\aplib.lib"
+".\Debug\shell.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFB.tmp"
+Performing Custom Build Step on .\shell.asm
+Microsoft (R) Macro Assembler Version 6.14.8444
+Copyright (C) Microsoft Corp 1981-1997.  All rights reserved.
+
+ Assembling: .\shell.asm
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+PE-Armor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
